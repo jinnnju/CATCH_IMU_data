@@ -1,6 +1,12 @@
-# <img src="docs/catch.png" alt="Image description" style="width:55px;height:50px;"> CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching
+# <img src="docs/catch.png" alt="Image description" style="width:50px;height:50px;"> CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching
 
-**This code is a PyTorch implementation of CATCH.**
+**This code is the official PyTorch implementation of our ICLR'25 paper: [CATCH](https://arxiv.org/pdf/2410.12261): Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching.**
+
+[![ICLR](https://img.shields.io/badge/ICLR'25-CATCH-orange)](https://arxiv.org/pdf/2412.10859)  [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/)  ![Stars](https://img.shields.io/github/stars/decisionintelligence/CATCH)  [![Visits Badge](https://badges.pufler.dev/visits/decisionintelligence/CATCH)](https://badges.pufler.dev/visits/decisionintelligence/CATCH)
+
+If you find this project helpful, please don't forget to give it a ⭐ Star to show your support. Thank you!
+
+🚩 News (2025.1) CATCH has been accepted by ICLR 2025.
 
 ## Introduction
 
