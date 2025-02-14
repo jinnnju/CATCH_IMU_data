@@ -79,7 +79,7 @@ You can clear the environment prefix using the following command. Now the enviro
 Now you can test all the baseline models. We provide experiment scripts for various baseline models under the folder `./scripts/multivariate_detection`:
 ```shell
 (my_env) $ sh ./scripts/multivariate_detection/detect_label/MSL_script/AnomalyTransformer.sh
-
+```
 
 ## Citation
 
