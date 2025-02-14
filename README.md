@@ -79,4 +79,27 @@ You can clear the environment prefix using the following command. Now the enviro
 Now you can test all the baseline models. We provide experiment scripts for various baseline models under the folder `./scripts/multivariate_detection`:
 ```shell
 (my_env) $ sh ./scripts/multivariate_detection/detect_label/MSL_script/AnomalyTransformer.sh
+
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```
+@inproceedings{wu2024catch,
+  title     = {CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching},
+  author    = {Wu, Xingjian and Qiu, Xiangfei and Li, Zhengyu and Wang, Yihang and Hu, Jilin and Guo, Chenjuan and Xiong, Hui and Yang, Bin},
+  booktitle = {ICLR},
+  year      = {2025}
+}
+```
+
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact:
+- Xingjian Wu (xjwu@stu.ecnu.edu.cn)
+- [Xiangfei Qiu](https://qiu69.github.io/) (xfqiu@stu.ecnu.edu.cn)
+
+Or describe it in Issues.
 ```
