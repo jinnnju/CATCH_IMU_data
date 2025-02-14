@@ -46,7 +46,7 @@ sh ./scripts/multivariate_detection/detect_score/MSL_script/CATCH.sh
 
 ## Results
 
-Extensive experiments on 9 real-world datasets and 12 synthetic datasets demonstrate that CATCH achieves state-of-the-art performance. We show the main results of all the 9 real-world datasets, and report the mean results of the 6 types of synthetic datasets:
+Extensive experiments on 10 real-world datasets and 12 synthetic datasets demonstrate that CATCH achieves state-of-the-art performance. We show the main results of all the 10 real-world datasets, and report the mean results of the 6 types of synthetic datasets:
 
 <div align="center">
 <img alt="exp" src="docs/experiment.png" width="100%"/>
