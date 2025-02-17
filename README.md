@@ -61,7 +61,7 @@ Some models require Git to run. Please ensure that Git is installed on your syst
 sudo apt-get install git
 ```
 #### 2. Download and Extract Environment
-Download the environment from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/Eapc8wI7tqxOqmOPZ66uMG4BgeX8j7AewKq7NekCI0Al2w?e=NdenlL). (This may take some time, please wait patiently.) Then, create a directory my_env (we recommend creating it under `conda/envs/`) and extract the environment into this directory:
+Download the environment from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EV1kQRCTRIJKpsVu7EMoaFoBhlXu5Ke4uL-ZymzQ8fxC7w). (This may take some time, please wait patiently.) Then, create a directory my_env (we recommend creating it under `conda/envs/`) and extract the environment into this directory:
 ```shell
 mkdir -p my_env
 tar -xzf CATCH.tar.gz -C my_env
