@@ -98,7 +98,7 @@ If you find this repo useful, please cite our paper.
 ## Contact
 
 If you have any questions or suggestions, feel free to contact:
-- Xingjian Wu (xjwu@stu.ecnu.edu.cn)
+- [Xingjian Wu](https://ccloud0525.github.io/academic/)  (xjwu@stu.ecnu.edu.cn)
 - [Xiangfei Qiu](https://qiu69.github.io/) (xfqiu@stu.ecnu.edu.cn)
 
 Or describe it in Issues.
