@@ -33,7 +33,7 @@ Prepare Data. You can obtained the well pre-processed datasets from [OneDrive](h
 
 ### Train and evaluate model
 
-- To see the model structure of CATCH,  [click here](./ts_benchmark/baselines/self_impl/CATCH/CATCH.py).
+- To see the model structure of CATCH,  [click here](./ts_benchmark/baselines/catch/CATCH.py).
 - We provide the experiment scripts for CATCH and other baselines under the folder `./scripts/multivariate_detection`. For example you can reproduce a experiment result as the following:
 
 ```shell
