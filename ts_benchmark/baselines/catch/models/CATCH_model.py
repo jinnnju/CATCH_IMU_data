@@ -6,14 +6,14 @@
 * @description: The structure of CATCH
 '''
 
-from ts_benchmark.baselines.self_impl.CATCH.layers.RevIN import RevIN
-from ts_benchmark.baselines.self_impl.CATCH.layers.cross_channel_Transformer import Trans_C
+from ts_benchmark.baselines.catch.layers.RevIN import RevIN
+from ts_benchmark.baselines.catch.layers.cross_channel_Transformer import Trans_C
 # Cell
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from ts_benchmark.baselines.self_impl.CATCH.layers.channel_mask import channel_mask_generator
+from ts_benchmark.baselines.catch.layers.channel_mask import channel_mask_generator
 
 
 class CATCHModel(nn.Module):

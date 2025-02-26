@@ -7,13 +7,13 @@ import torch.nn as nn
 from sklearn.preprocessing import StandardScaler
 from torch.optim import lr_scheduler
 
-from ts_benchmark.baselines.self_impl.CATCH.models.CATCH_model import (
+from ts_benchmark.baselines.catch.models.CATCH_model import (
     CATCHModel,
 )
 from ts_benchmark.baselines.utils import anomaly_detection_data_provider
 from ts_benchmark.baselines.utils import train_val_split
-from .utils.fre_rec_loss import frequency_loss, frequency_criterion
-from .utils.tools import EarlyStopping, adjust_learning_rate
+from ts_benchmark.baselines.catch.utils.fre_rec_loss import frequency_loss, frequency_criterion
+from ts_benchmark.baselines.catch.utils.tools import EarlyStopping, adjust_learning_rate
 
 DEFAULT_TRANSFORMER_BASED_HYPER_PARAMS = {
     "lr": 0.0001,
