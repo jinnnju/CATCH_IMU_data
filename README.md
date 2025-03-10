@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ### Data preparation
 
-Prepare Data. You can obtained the well pre-processed datasets from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EYJSkiM-_ZlJkvh4Md9JfS4BOppI9lqxJ9QGpR8Sc05fzw?e=qNTd1u). (This may take some time, please wait patiently.) Then place the downloaded data under the folder `./dataset`. 
+Prepare Data. You can obtained the well pre-processed datasets from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EYJSkiM-_ZlJkvh4Md9JfS4BOppI9lqxJ9QGpR8Sc05fzw?e=qNTd1u) or [BaiduCloud](https://pan.baidu.com/s/1RUOAK1CrXFP0FdA8TdQdWQ?pwd=2255). (This may take some time, please wait patiently.) Then place the downloaded data under the folder `./dataset`. 
 
 ### Train and evaluate model
 
@@ -61,7 +61,7 @@ Some models require Git to run. Please ensure that Git is installed on your syst
 sudo apt-get install git
 ```
 #### 2. Download and Extract Environment
-Download the environment from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EV1kQRCTRIJKpsVu7EMoaFoBhlXu5Ke4uL-ZymzQ8fxC7w). (This may take some time, please wait patiently.) Then, create a directory my_env (we recommend creating it under `conda/envs/`) and extract the environment into this directory:
+Download the environment from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EV1kQRCTRIJKpsVu7EMoaFoBhlXu5Ke4uL-ZymzQ8fxC7w) or [BaiduCloud](https://pan.baidu.com/s/1PHlMKpaa0-5aWEOG5z0LuA?pwd=5522). (This may take some time, please wait patiently.) Then, create a directory my_env (we recommend creating it under `conda/envs/`) and extract the environment into this directory:
 ```shell
 mkdir -p my_env
 tar -xzf CATCH.tar.gz -C my_env
