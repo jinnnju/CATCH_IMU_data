@@ -87,7 +87,7 @@ If you find this repo useful, please cite our paper.
 
 ```
 @inproceedings{wu2024catch,
-  title     = {CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching},
+  title     = {{CATCH}: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching},
   author    = {Wu, Xingjian and Qiu, Xiangfei and Li, Zhengyu and Wang, Yihang and Hu, Jilin and Guo, Chenjuan and Xiong, Hui and Yang, Bin},
   booktitle = {ICLR},
   year      = {2025}
