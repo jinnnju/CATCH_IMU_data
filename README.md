@@ -7,6 +7,7 @@
 If you find this project helpful, please don't forget to give it a ⭐ Star to show your support. Thank you!
 
 🚩 News (2025.6) The evaluation framework [TAB](https://arxiv.org/pdf/2506.18046) used in this study has been accepted by PVLDB 2025. Both the dataset and source code are available [here](https://github.com/decisionintelligence/TAB).
+
 🚩 News (2025.1) CATCH has been accepted by ICLR 2025.
 
 ## Introduction
