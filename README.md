@@ -54,32 +54,8 @@ Extensive experiments on 10 real-world datasets and 12 synthetic datasets demons
 
 
 ## Setup for Running Baseline Models
-If you want to test all baseline models, follow these steps:
-#### 1. Install Git
-Some models require Git to run. Please ensure that Git is installed on your system. If not, you can install it using the following command:
-```shell
-sudo apt-get install git
-```
-#### 2. Download and Extract Environment
-Download the environment from [OneDrive](https://1drv.ms/u/c/801ce36c4ff3f93b/EV1kQRCTRIJKpsVu7EMoaFoBhlXu5Ke4uL-ZymzQ8fxC7w) or [BaiduCloud](https://pan.baidu.com/s/1PHlMKpaa0-5aWEOG5z0LuA?pwd=5522). (This may take some time, please wait patiently.) Then, create a directory my_env (we recommend creating it under `conda/envs/`) and extract the environment into this directory:
-```shell
-mkdir -p my_env
-tar -xzf CATCH.tar.gz -C my_env
-```
-#### 3. Activate the Environment
-```shell
-source my_env/bin/activate
-```
-#### 4. Clean Environment Prefix
-You can clear the environment prefix using the following command. Now the environment is the same as one created directly with conda at this path:
-```shell
-(my_env) $ conda-unpack
-```
-#### 5. Run Baseline Models
-Now you can test all the baseline models. We provide experiment scripts for various baseline models under the folder `./scripts/multivariate_detection`:
-```shell
-(my_env) $ sh ./scripts/multivariate_detection/detect_label/MSL_script/AnomalyTransformer.sh
-```
+If you want to test all baseline models, please refer to the Time Series Anomaly Detection Benchmark [TAB](https://github.com/decisionintelligence/TAB):
+
 
 ## Citation
 
@@ -91,6 +67,13 @@ If you find this repo useful, please cite our paper.
   author    = {Wu, Xingjian and Qiu, Xiangfei and Li, Zhengyu and Wang, Yihang and Hu, Jilin and Guo, Chenjuan and Xiong, Hui and Yang, Bin},
   booktitle = {ICLR},
   year      = {2025}
+}
+
+@inproceedings{qiu2025tab,
+title      = {{TAB}: Unified Benchmarking of Time Series Anomaly Detection Methods},
+author     = {Xiangfei Qiu and Zhe Li and Wanghui Qiu and Shiyan Hu and Lekui Zhou and Xingjian Wu and Zhengyu Li and Chenjuan Guo and Aoying Zhou and Zhenli Sheng and Jilin Hu and Christian S. Jensen and Bin Yang},
+booktitle  = {Proc. {VLDB} Endow.},
+year       = {2025}
 }
 ```
 
