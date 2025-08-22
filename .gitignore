@@ -1,6 +1,7 @@
 __pycache__
 
 #dataset/
+dataset/anomaly_detect/data/*.csv
 test_benchmark_functions/
 result/
 .idea/
